@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<title>SGX Example - HTML5/Javascript/Canvas example - Benchmark testing</title>
+<head>
+	<meta http-equiv="content-script-type" content="text/javascript">
+	<link href="canvas.css" rel="stylesheet" type="text/css">
+	<meta name="keywords" content="html5,javascript,canvas,engine,games,game,sgx" />
+	<meta name="description" content="HTML5 benchmark, written in Javascript and the canvas, using the SGX engine." />
+</script>
+
+</head>
+<body>
+
+<div align="center" id="game_screen">
+	<canvas id="SGXCanvas" width="640" height="400">
+		This browser does not support the HTML5 Canvas.
+	</canvas>
+</div>
+
+<script type="text/javascript" src="http://sgxengine.com/code/sgx/sgx-3.1.1.min.js"></script>
+
+<script type="text/javascript" src="benchmark.js"></script>
+<script type="text/javascript">window.onload=SGXPrepare_OS;</script>
+
+</body>
+</html>
+
